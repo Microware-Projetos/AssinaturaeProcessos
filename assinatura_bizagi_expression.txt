@@ -1,13 +1,18 @@
 // Assinatura Microware para uso em regra/expressao HTML da Bizagi.
 // Substitua as URLs abaixo por enderecos publicos/HTTPS onde as imagens estejam hospedadas.
 
-var urlServicos = "https://github.com/Microware-Projetos/AssinaturaeProcessos/blob/main/assinatura_assets/servicos.png?raw=true";
-var urlLogo = "https://github.com/Microware-Projetos/AssinaturaeProcessos/blob/main/assinatura_assets/microware-logo.png?raw=true";
+var urlTransfDigital = "https://raw.githubusercontent.com/Microware-Projetos/AssinaturaeProcessos/main/novas%20imagens/01%20-%20TRANSF_DIGITAL.png";
+var urlNuvem = "https://raw.githubusercontent.com/Microware-Projetos/AssinaturaeProcessos/main/novas%20imagens/02%20-%20NUVEM.png";
+var urlBordaInteligente = "https://raw.githubusercontent.com/Microware-Projetos/AssinaturaeProcessos/main/novas%20imagens/03%20-%20BORDA_INTELIGENTE.png";
+var urlSeguranca = "https://raw.githubusercontent.com/Microware-Projetos/AssinaturaeProcessos/main/novas%20imagens/04%20-%20SEGURANCA.png";
+var urlFornecedorGlobal = "https://raw.githubusercontent.com/Microware-Projetos/AssinaturaeProcessos/main/novas%20imagens/05%20-%20FORNEC_ESTRAT_E_GLOBAL.png";
+var urlMktDigital = "https://raw.githubusercontent.com/Microware-Projetos/AssinaturaeProcessos/main/novas%20imagens/06%20-%20MKT_DIGITAL.png";
+var urlLogo = "https://raw.githubusercontent.com/Microware-Projetos/AssinaturaeProcessos/main/novas%20imagens/microware-logo.png";
 var urlLinkedin = "https://github.com/Microware-Projetos/AssinaturaeProcessos/blob/main/assinatura_assets/linkedin.png?raw=true";
 var urlFacebook = "https://github.com/Microware-Projetos/AssinaturaeProcessos/blob/main/assinatura_assets/facebook.png?raw=true";
 var urlInstagram = "https://github.com/Microware-Projetos/AssinaturaeProcessos/blob/main/assinatura_assets/instagram.png?raw=true";
 var urlYoutube = "https://github.com/Microware-Projetos/AssinaturaeProcessos/blob/main/assinatura_assets/youtube.png?raw=true";
-var urlIso = "https://github.com/Microware-Projetos/AssinaturaeProcessos/blob/main/assinatura_assets/iso-selos.png?raw=true";
+var urlIso = "https://raw.githubusercontent.com/Microware-Projetos/AssinaturaeProcessos/main/novas%20imagens/iso-selos.png";
 
 var msg = "";
 
@@ -25,10 +30,19 @@ msg = msg + "</td>";
 msg = msg + "</tr>";
 msg = msg + "<tr>";
 msg = msg + "<td style='font-family:Arial, Helvetica, sans-serif; vertical-align:middle; padding:0 8px 4px 0;'>";
-msg = msg + "<img src='" + urlServicos + "' width='460' height='53' alt='Servicos Microware' style='display:block; border:0; outline:none; text-decoration:none; width:460px; height:53px;'>";
+msg = msg + "<table border='0' cellpadding='0' cellspacing='0' style='border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; width:460px;'>";
+msg = msg + "<tr>";
+msg = msg + "<td style='font-family:Arial, Helvetica, sans-serif; padding:0 4px 0 0; text-align:center; vertical-align:top; width:73px;'><img src='" + urlTransfDigital + "' width='52' height='52' alt='Transformacao Digital' style='display:block; border:0; width:52px; height:52px; margin:0 auto;'><span style='font-size:7.5pt; line-height:10px; color:#000000;'>Transforma&ccedil;&atilde;o<br>Digital</span></td>";
+msg = msg + "<td style='font-family:Arial, Helvetica, sans-serif; padding:0 4px 0 0; text-align:center; vertical-align:top; width:73px;'><img src='" + urlNuvem + "' width='52' height='52' alt='Nuvem, Datacenter Hibrido e Conectividade' style='display:block; border:0; width:52px; height:52px; margin:0 auto;'><span style='font-size:7.5pt; line-height:10px; color:#000000;'>Nuvem, Datacenter<br>H&iacute;brido e Conectividade</span></td>";
+msg = msg + "<td style='font-family:Arial, Helvetica, sans-serif; padding:0 4px 0 0; text-align:center; vertical-align:top; width:73px;'><img src='" + urlBordaInteligente + "' width='52' height='52' alt='Borda Inteligente' style='display:block; border:0; width:52px; height:52px; margin:0 auto;'><span style='font-size:7.5pt; line-height:10px; color:#000000;'>Borda<br>Inteligente</span></td>";
+msg = msg + "<td style='font-family:Arial, Helvetica, sans-serif; padding:0 4px 0 0; text-align:center; vertical-align:top; width:73px;'><img src='" + urlSeguranca + "' width='52' height='52' alt='Seguranca' style='display:block; border:0; width:52px; height:52px; margin:0 auto;'><span style='font-size:7.5pt; line-height:10px; color:#000000;'>Seguran&ccedil;a</span></td>";
+msg = msg + "<td style='font-family:Arial, Helvetica, sans-serif; padding:0 4px 0 0; text-align:center; vertical-align:top; width:73px;'><img src='" + urlFornecedorGlobal + "' width='52' height='52' alt='Fornecimento Estrategico e Global' style='display:block; border:0; width:52px; height:52px; margin:0 auto;'><span style='font-size:7.5pt; line-height:10px; color:#000000;'>Fornecimento<br>Estrat&eacute;gico e Global</span></td>";
+msg = msg + "<td style='font-family:Arial, Helvetica, sans-serif; padding:0; text-align:center; vertical-align:top; width:73px;'><img src='" + urlMktDigital + "' width='52' height='52' alt='Marketing Digital' style='display:block; border:0; width:52px; height:52px; margin:0 auto;'><span style='font-size:7.5pt; line-height:10px; color:#000000;'>Marketing<br>Digital</span></td>";
+msg = msg + "</tr>";
+msg = msg + "</table>";
 msg = msg + "</td>";
 msg = msg + "<td style='font-family:Arial, Helvetica, sans-serif; vertical-align:middle; text-align:center; padding:0 0 4px 10px;'>";
-msg = msg + "<img src='" + urlLogo + "' width='70' alt='Microware' style='display:block; border:0; outline:none; text-decoration:none; width:70px; height:auto;'>";
+msg = msg + "<img src='" + urlLogo + "' width='120' alt='Microware' style='display:block; border:0; outline:none; text-decoration:none; width:120px; height:auto;'>";
 msg = msg + "</td>";
 msg = msg + "</tr>";
 
