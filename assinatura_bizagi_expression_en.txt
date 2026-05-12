@@ -1,4 +1,4 @@
-// Assinatura Microware em portugues para uso em regra/expressao HTML da Bizagi.
+// Microware signature in English for use in a Bizagi HTML rule/expression.
 
 var urlTransfDigital = "https://raw.githubusercontent.com/Microware-Projetos/AssinaturaeProcessos/main/novas%20imagens/01%20-%20TRANSF_DIGITAL.png";
 var urlNuvem = "https://raw.githubusercontent.com/Microware-Projetos/AssinaturaeProcessos/main/novas%20imagens/02%20-%20NUVEM.png";
@@ -18,7 +18,7 @@ var msg = "";
 msg = msg + "<table border='0' cellpadding='0' cellspacing='0' style='border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; width:620px; font-family:Arial, Helvetica, sans-serif; color:#222a35; background-color:#ffffff;'>";
 msg = msg + "<tr>";
 msg = msg + "<td colspan='2' style='font-family:Arial, Helvetica, sans-serif; padding:0 0 9px 0; font-size:9pt; line-height:15px; color:#222a35;'>";
-msg = msg + "<strong>Microware - Projetos em T.I.C., da Concep&ccedil;&atilde;o &agrave; Execu&ccedil;&atilde;o.</strong><br>";
+msg = msg + "<strong>Microware - I.C.T. Projects, from Conception to Execution.</strong><br>";
 msg = msg + "<a href='https://www.microware.com.br' target='_blank' style='color:#0563c1; text-decoration:none;'>www.microware.com.br</a> | ";
 msg = msg + "<a href='mailto:microware@microware.com.br' style='color:#0563c1; text-decoration:none;'>microware@microware.com.br</a><br>";
 msg = msg + "<a href='tel:+551148722100' style='color:#222a35; text-decoration:none;'>SP +55 (11) 4872-2100</a> / ";
@@ -31,12 +31,12 @@ msg = msg + "<tr>";
 msg = msg + "<td style='font-family:Arial, Helvetica, sans-serif; vertical-align:middle; padding:0 8px 4px 0;'>";
 msg = msg + "<table border='0' cellpadding='0' cellspacing='0' style='border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; width:460px;'>";
 msg = msg + "<tr>";
-msg = msg + "<td style='font-family:Arial, Helvetica, sans-serif; padding:0 4px 0 0; text-align:center; vertical-align:top; width:73px;'><img src='" + urlTransfDigital + "' width='52' height='52' alt='Transformacao Digital' style='display:block; border:0; width:52px; height:52px; margin:0 auto;'><span style='font-size:7.5pt; line-height:10px; color:#000000;'>Transforma&ccedil;&atilde;o<br>Digital</span></td>";
-msg = msg + "<td style='font-family:Arial, Helvetica, sans-serif; padding:0 4px 0 0; text-align:center; vertical-align:top; width:73px;'><img src='" + urlNuvem + "' width='52' height='52' alt='Nuvem, Datacenter Hibrido e Conectividade' style='display:block; border:0; width:52px; height:52px; margin:0 auto;'><span style='font-size:7.5pt; line-height:10px; color:#000000;'>Nuvem, Datacenter<br>H&iacute;brido e Conectividade</span></td>";
-msg = msg + "<td style='font-family:Arial, Helvetica, sans-serif; padding:0 4px 0 0; text-align:center; vertical-align:top; width:73px;'><img src='" + urlBordaInteligente + "' width='52' height='52' alt='Borda Inteligente' style='display:block; border:0; width:52px; height:52px; margin:0 auto;'><span style='font-size:7.5pt; line-height:10px; color:#000000;'>Borda<br>Inteligente</span></td>";
-msg = msg + "<td style='font-family:Arial, Helvetica, sans-serif; padding:0 4px 0 0; text-align:center; vertical-align:top; width:73px;'><img src='" + urlSeguranca + "' width='52' height='52' alt='Seguranca' style='display:block; border:0; width:52px; height:52px; margin:0 auto;'><span style='font-size:7.5pt; line-height:10px; color:#000000;'>Seguran&ccedil;a</span></td>";
-msg = msg + "<td style='font-family:Arial, Helvetica, sans-serif; padding:0 4px 0 0; text-align:center; vertical-align:top; width:73px;'><img src='" + urlFornecedorGlobal + "' width='52' height='52' alt='Fornecimento Estrategico e Global' style='display:block; border:0; width:52px; height:52px; margin:0 auto;'><span style='font-size:7.5pt; line-height:10px; color:#000000;'>Fornecimento<br>Estrat&eacute;gico e Global</span></td>";
-msg = msg + "<td style='font-family:Arial, Helvetica, sans-serif; padding:0; text-align:center; vertical-align:top; width:73px;'><img src='" + urlMktDigital + "' width='52' height='52' alt='Marketing Digital' style='display:block; border:0; width:52px; height:52px; margin:0 auto;'><span style='font-size:7.5pt; line-height:10px; color:#000000;'>Marketing<br>Digital</span></td>";
+msg = msg + "<td style='font-family:Arial, Helvetica, sans-serif; padding:0 4px 0 0; text-align:center; vertical-align:top; width:73px;'><img src='" + urlTransfDigital + "' width='52' height='52' alt='Digital Transformation' style='display:block; border:0; width:52px; height:52px; margin:0 auto;'><span style='font-size:7.5pt; line-height:10px; color:#000000;'>Digital<br>Transformation</span></td>";
+msg = msg + "<td style='font-family:Arial, Helvetica, sans-serif; padding:0 4px 0 0; text-align:center; vertical-align:top; width:73px;'><img src='" + urlNuvem + "' width='52' height='52' alt='Cloud, Hybrid Datacenter and Connectivity' style='display:block; border:0; width:52px; height:52px; margin:0 auto;'><span style='font-size:7.5pt; line-height:10px; color:#000000;'>Cloud, Hybrid<br>Datacenter and Connectivity</span></td>";
+msg = msg + "<td style='font-family:Arial, Helvetica, sans-serif; padding:0 4px 0 0; text-align:center; vertical-align:top; width:73px;'><img src='" + urlBordaInteligente + "' width='52' height='52' alt='Intelligent Edge' style='display:block; border:0; width:52px; height:52px; margin:0 auto;'><span style='font-size:7.5pt; line-height:10px; color:#000000;'>Intelligent<br>Edge</span></td>";
+msg = msg + "<td style='font-family:Arial, Helvetica, sans-serif; padding:0 4px 0 0; text-align:center; vertical-align:top; width:73px;'><img src='" + urlSeguranca + "' width='52' height='52' alt='Security' style='display:block; border:0; width:52px; height:52px; margin:0 auto;'><span style='font-size:7.5pt; line-height:10px; color:#000000;'>Security</span></td>";
+msg = msg + "<td style='font-family:Arial, Helvetica, sans-serif; padding:0 4px 0 0; text-align:center; vertical-align:top; width:73px;'><img src='" + urlFornecedorGlobal + "' width='52' height='52' alt='Strategic and Global Supply' style='display:block; border:0; width:52px; height:52px; margin:0 auto;'><span style='font-size:7.5pt; line-height:10px; color:#000000;'>Strategic and<br>Global Supply</span></td>";
+msg = msg + "<td style='font-family:Arial, Helvetica, sans-serif; padding:0; text-align:center; vertical-align:top; width:73px;'><img src='" + urlMktDigital + "' width='52' height='52' alt='Digital Marketing' style='display:block; border:0; width:52px; height:52px; margin:0 auto;'><span style='font-size:7.5pt; line-height:10px; color:#000000;'>Digital<br>Marketing</span></td>";
 msg = msg + "</tr>";
 msg = msg + "</table>";
 msg = msg + "</td>";
@@ -47,8 +47,8 @@ msg = msg + "</tr>";
 
 msg = msg + "<tr>";
 msg = msg + "<td colspan='2' style='font-family:Arial, Helvetica, sans-serif; padding:5px 0 0 0; font-size:7.5pt; line-height:12px; color:#7f7f7f; text-align:justify;'>";
-msg = msg + "As informa&ccedil;&otilde;es contidas nesta mensagem e no(s) arquivo(s) anexo(s) s&atilde;o confidenciais e de propriedades da Microware Tecnologia de Informa&ccedil;&atilde;o Ltda. e de uso exclusivamente &agrave;(s) pessoa(s) e/ou institui&ccedil;&atilde;o(&otilde;es) acima indicada(s) e podem conter informa&ccedil;&otilde;es confidenciais e/ou privilegiadas. Se voc&ecirc; n&atilde;o for o destinat&aacute;rio ou pessoa autorizada a receb&ecirc;-la, queira, por favor retorn&aacute;-la ao remetente e em seguida apag&aacute;-la definitivamente. Qualquer uso, c&oacute;pia ou divulga&ccedil;&atilde;o das informa&ccedil;&otilde;es nela contidas, na &iacute;ntegra ou parcialmente, s&atilde;o proibidas e ser&atilde;o tratadas conforme legisla&ccedil;&atilde;o vigente. ";
-msg = msg + "<a href='https://www.microware.com.br/politicadeseguranca.html' target='_blank' style='color:#0563c1; font-weight:bold; text-decoration:underline;'>Clique e acesse a nossa pol&iacute;tica de seguran&ccedil;a</a>";
+msg = msg + "The information contained in this message and in any attached file(s) is confidential, property of Microware Tecnologia de Informa&ccedil;&atilde;o Ltda., and intended exclusively for the person(s) and/or institution(s) indicated above. It may contain confidential and/or privileged information. If you are not the intended recipient or a person authorized to receive it, please return it to the sender and then permanently delete it. Any use, copy, or disclosure of the information contained herein, in whole or in part, is prohibited and will be handled in accordance with applicable law. ";
+msg = msg + "<a href='https://www.microware.com.br/politicadeseguranca.html' target='_blank' style='color:#0563c1; font-weight:bold; text-decoration:underline;'>Click here to access our security policy</a>";
 msg = msg + "</td>";
 msg = msg + "</tr>";
 
@@ -63,7 +63,7 @@ msg = msg + "<a href='https://www.instagram.com/microwarebr/' target='_blank' st
 msg = msg + "<a href='https://www.youtube.com/channel/UC-6ZflrcrImCiIU4oYERx0Q' target='_blank' style='text-decoration:none;'><img src='" + urlYoutube + "' width='18' height='18' alt='YouTube' style='display:inline-block; border:0; width:18px; height:18px;'></a>";
 msg = msg + "</td>";
 msg = msg + "<td style='font-family:Arial, Helvetica, sans-serif; vertical-align:middle; text-align:right;'>";
-msg = msg + "<a href='https://www.microware.com.br/sgi' target='_blank' style='text-decoration:none;'><img src='" + urlIso + "' width='203' height='65' alt='Certificacoes ISO Microware' style='display:inline-block; border:0; outline:none; text-decoration:none; width:203px; height:65px;'></a>";
+msg = msg + "<a href='https://www.microware.com.br/sgi' target='_blank' style='text-decoration:none;'><img src='" + urlIso + "' width='203' height='65' alt='Microware ISO Certifications' style='display:inline-block; border:0; outline:none; text-decoration:none; width:203px; height:65px;'></a>";
 msg = msg + "</td>";
 msg = msg + "</tr>";
 msg = msg + "</table>";
@@ -71,5 +71,5 @@ msg = msg + "</td>";
 msg = msg + "</tr>";
 msg = msg + "</table>";
 
-// Para notificacoes automaticas, a documentacao da Bizagi indica nao usar "return".
+// For automatic notifications, Bizagi documentation indicates not to use "return".
 msg;
